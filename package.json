@@ -1,0 +1,30 @@
+{
+  "name": "log-viewer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "View Log files from Log Dir via HTTP Server",
+  "keywords": [],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "homepage": "https://github.com/bhaktijkoli/log-viewer#readme",
+  "bugs": {
+    "url": "https://github.com/bhaktijkoli/log-viewer/issues",
+    "email": "hello@bhaktijkoli.com"
+  },
+  "license": "MIT",
+  "author": "Bhaktij Koli <hello@bhaktijkoli.com> (https://bhaktijkoli.com)",
+  "main": "src/ndex.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhaktijkoli/log-viewer.git"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  }
+}
