@@ -5,7 +5,8 @@
   "description": "View Log files from Log Dir via HTTP Server",
   "keywords": [],
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "dotenv": "^16.0.1",
@@ -26,5 +27,8 @@
   "engines": {
     "node": ">=10",
     "npm": ">=6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
